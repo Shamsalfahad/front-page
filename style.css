@@ -1,3 +1,35 @@
-.gg{
-    font-weight: bold;
-}
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f2f2f2;
+  }
+  
+  .box {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    background-color: #efefef;
+    justify-content: space-between;
+  }
+  
+  .messages { background-color: #000000; }
+  
+  /* Our Grid Code */
+  .app-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 35vh;
+    gap: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 15px;
+  }
+  
+  /* try to resize the screen */
+  @media screen and (max-width: 1024px) {
+    .app-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 25vh 25vh;
+    }
+  }
