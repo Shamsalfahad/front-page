@@ -24,12 +24,18 @@ body {
     margin-right: 70px;
     margin-top: 15px;
   }
+  .H{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+  }
   
   /* try to resize the screen */
   @media screen and (max-width: 1024px) {
     .app-layout {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 25vh 25vh;
+      grid-template-rows: 40vh 40vh;
     }
   }
